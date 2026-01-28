@@ -54,6 +54,9 @@ a {
     font-weight: 600;
     box-shadow: 0 4px 15px rgba(255, 107, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-primary:hover {
@@ -67,8 +70,11 @@ a {
     color: var(--primary-color);
     border-color: var(--primary-color);
     border-radius: 50px;
-    padding: 10px 25px;
+    padding: 12px 30px;
     font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-outline-primary:hover {
